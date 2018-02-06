@@ -1,5 +1,7 @@
 ## 功能
 从[代理池](https://github.com/LogicJake/Proxy_IP)获取代理进行返回
+## 使用方法
+需要配合[代理池](https://github.com/LogicJake/Proxy_IP)使用，将user.sql数据表导入到代理池项目所用的数据库，填写include/config.php数据库信息。
 ## 接口说明
 ### 获取随机代理
 | 名称 | 选项 |
