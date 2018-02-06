@@ -12,3 +12,13 @@ function getSingleip(){
     $proxy = $res[$index];
     return $proxy;
 }
+function getipList(){
+    global $db;
+    $res = $db->select("available",[
+            "IP",
+            "PORT"
+    ],[
+        "STATUS" => 0
+    ]);
+    return $res;
+}

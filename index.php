@@ -10,7 +10,7 @@ require_once './include/result.class.php';
 require_once './include/check.function.php';
 
 // white list
-$actionList = ['getIP'];          //所有action列表
+$actionList = ['getIP','getIPList'];          //所有action列表
 
 if (!isset($_GET['_action'])) {
     Result::error('missing _action');
